@@ -10,5 +10,5 @@ Track as t
 ON i.InvoiceId = il.InvoiceId
 AND il.TrackId = t.TrackId
 WHERE i.InvoiceDate LIKE "2013%"
-GROUP BY MAX(sales_2013)
+GROUP BY track
 ORDER BY sales_2013 DESC

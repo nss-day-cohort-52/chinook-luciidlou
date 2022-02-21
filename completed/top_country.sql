@@ -18,3 +18,4 @@ FROM
 Invoice as i
 GROUP BY i.BillingCountry
 ORDER BY total_sales DESC
+LIMIT 1
